@@ -1,0 +1,19 @@
+h1{
+ background-color:rgb(1, 41, 175);
+    color:gainsboro;
+}
+p{
+    background-color:aliceblue;
+}
+h2{
+   background-color: beige;
+}
+ol{
+    background-color: bisque;
+}
+a{
+    color: aqua;
+}
+body {
+    background-color:rgb(216, 136, 50);
+}
