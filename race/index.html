@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <title>race forms</title>
+    <link rel="stylesheet" href="race.css">
+</head>
+
+<body>
+    <h1>Race Registrations!</h1>
+    <form action="baka//">
+
+        <div>
+            <label for="name"><b>First Name</b> </label>
+            <input type="text" name="firstname" id="name" required>
+            <label for="lastname"> <b>Last Name</b> </label>
+            <input type="text" name="lastname" id="lastname" required>
+        </div>
+        <p>
+        <div>
+            <label for="race"> <b>Select a race:</b> </label>
+            <br>
+            <input type="radio" name="Marathon" id="race">
+            <label for="race"> <b>fun run 5k</b> </label>
+            <br>
+            <input type="radio" name="Marathon" id="run">
+            <label for="run"> <b> Half Marathon</b></label>
+            <br>
+            <input type="radio" name="Marathon" id="Marathon">
+            <label for="Marathon"> <b>Full Marathon</b> </label>
+        </div>
+
+        <label for="email"> Email id:</label>
+        <input type="email" name="email" id="email" required>
+        <label for="password">Password</label>
+        <input type="password" name="password" id="password" required>
+        <br>
+
+        <label for="age">select an age group:</label>
+        <select name="age" id="age">
+            <option value="under 18">under 18</option>
+            <option value="18-30">18-30</option>
+            <option value="30-50">30-50</option>
+        </select>
+        <br>
+        <button>Register!</button>
+        </p>
+
+    </form>
+
+
+
+
+</body>
+
+</html>
