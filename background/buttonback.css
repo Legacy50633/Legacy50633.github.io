@@ -1,0 +1,14 @@
+body{
+    text-align: center;
+    background-color: silver;
+    
+}
+button{
+    margin: 20px;
+    padding: 10px;
+    
+}
+h1{
+    display: inline;
+    
+}
